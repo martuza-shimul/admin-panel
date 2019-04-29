@@ -1,0 +1,158 @@
+
+
+
+
+.header_wrapper{
+	padding: 15px 0px;
+}
+
+.header_wrapper h3{
+	margin: 0;
+}
+
+.ddb{
+	width: 150px;
+	/*display: block;*/
+	
+}
+
+.btn{
+	padding: 4px 12px;
+}
+
+.section_a{
+	/*border: 1px solid #DEE0E2;*/
+	padding: 10px 0px;
+	/*margin: 0 0px;*/
+	box-shadow: 0px 0px 14px 5px #DEE0E2;
+}
+
+.section_a ul{
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	font-size: 12px;
+	border: 1px solid #DEE0E2;
+	border-radius: 20px;
+
+}
+
+.section_a ul li{
+	padding: 5px 10px;
+	border-left: 1px solid #DEE0E2;
+	display: inline-block;
+	
+}
+
+.section_a ul li:first-child{
+	border-left: none;
+}
+
+.active{
+	background: #DEE0E2;
+}
+
+.img-responsive{
+	display: inline-block;
+}
+
+.box p{
+	background: #6AD914;
+	padding: 70px 60px 70px 60px;
+	display: inline-block;
+	color: #fff;
+	/*width: 80px;
+	height: 80px;*/
+	border-radius: 50%;
+	margin-top: 30px;
+
+}
+
+.box_beside p{
+	/*border: 1px solid #DEE0E2;*/
+	box-shadow: 0px 0px 14px 1px #DEE0E2;
+	box-sizing: border-box;
+	font-size: 12px;
+	padding: 3px 10px;
+	transform: translateY(250%);
+
+}
+
+/*.content_left, .content_right{
+	padding: 15px;
+	
+	margin-top: 15px;
+	
+}*/
+
+.content_left{
+	margin-left: -15px;
+	box-shadow: 0px 0px 14px 5px #DEE0E2;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.section_first{
+	box-shadow: 0px 0px 14px 5px #DEE0E2;
+	padding: 15px;
+}
+
+.content_right{
+	margin-right: -15px;
+	padding: 0;
+	margin-top: 15px;
+}
+
+.bar_content{
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.bars{
+	background: #EC4966;
+	padding: 3px 15px;
+	border-radius: 20px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+#bars{
+	background: #6AD914;
+}
+
+.bars p:first-child{
+	width: 63%;
+	display:inline-block;
+	margin: 0;
+}
+
+.bars p:last-child{
+	width: 35%;
+	display:inline-block;
+	margin: 0;
+}
+
+.bars i{
+	color: #000;
+}
+
+.bars1{
+	background: #fff;
+	color: #000;
+	border: 1px solid #DEE0E2;
+
+}
+
+.bars span{
+	margin: 0 2px;
+}
+
+.bar_content1{
+	margin-top: 10px;
+}
+
+.section_first_new{
+	margin-top: 15px;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE>
+<html>
+<head>
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+
+	<title>First</title>
+
+	<meta name="description" content="">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+	================================================== -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="../css/modal.css">
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    
+</head>
+<body>
+
+
+
+	<div class="wrapper">
+		<div class="container">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			  Launch demo modal
+			</button>
+
+			<!-- Modal -->
+			<div class=" modal  fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			      </div>
+			      <div class="modal-body">
+			       	  <div class="container-fluid">
+			       	  	<div class="row">
+			       	  		<div class="col-md-4 content_left">
+			       	  			<div class="">
+			       	  				<div class="">
+			       	  					<div class="row sec_a">
+			       	  						<div class="col-md-7">
+			       	  							<p>Friday, April 29</p>
+			       	  						</div>
+			       	  						<div class="col-md-5 text-right">
+			       	  							 <div class="btn-group button" role="group" aria-label="...">
+													  <button type="button" class="btn btn-sm btn-default button1"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+													  <button type="button" class="btn btn-sm btn-default button2"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+												  
+												</div>
+			       	  						</div>
+			       	  					</div>
+			       	  				</div>
+			       	  				<div class="row border">
+			       	  					<div class="sec_b">
+			       	  						<p id="bars" class="bars">Call</p>
+			       	  						<p id="" class="bars bars1">Proposal</p>
+			       	  						<p id="" class="bars bars1">Meeting</p>
+			       	  						<p class="sec_b_last">23 More <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+			       	  					</div>
+			       	  					
+			       	  				</div>
+			       	  			</div>
+			       	  		</div>
+			       	  		<div class="col-md-8 content_right">
+			       	  			<div class="row sec_ra">
+			       	  				<div class="col-md-12"> 
+			       	  					<ul>
+											<li class="active"><i class="fa fa-phone" aria-hidden="true"></i>  Call</li>
+											<li><i class="fa fa-meetup" aria-hidden="true"></i>  Meeting</li>
+											<li><i class="fa fa-clock-o" aria-hidden="true"></i>  Task</li>
+											<li><i class="fa fa-flag-o" aria-hidden="true"></i>  Deadline</li>
+											<li><i class="fa fa-envelope-o" aria-hidden="true"></i>  Email</li>
+											<li ><i class="fa fa-gift" aria-hidden="true"></i>  Launch</li>
+											
+										</ul>
+			       	  				</div>
+			       	  			</div>
+			       	  			<div class="row sec_rb">
+			       	  				<p>Call</p>
+			       	  			</div>
+			       	  			<div class="row sec_rc">
+			       	  				<form>
+			       	  					<div class="form-group input">
+										    <label for="exampleInputEmail1">Date</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" value="30/04/2017">
+										</div>
+										<div class="form-group input input1">
+										    <label for="exampleInputEmail1">Time</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+										</div>
+										<div class="form-group input">
+										    <label for="exampleInputEmail1">Duration</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+										</div>
+			       	  				</form>
+			       	  			</div>
+			       	  			<div class="row sec_rd">
+			       	  				<p class="text-center">Notes</p>
+			       	  			</div>
+			       	  			<div class="row accordion1">
+			       	  				<div>
+			       	  					<h5>Assigned to</h5>
+			       	  					<div class="dropdown">
+											  <button class="btn btn-default btn-block text-left dropdown-toggle ddb" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  Pipeline  <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+											    
+											    
+											 
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+											    <li><a href="#">Action</a></li>
+											    <li><a href="#">Another action</a></li>
+											    <li role="separator" class="divider"></li>
+											    <li><a href="#">Separated link</a></li>
+											  </ul>
+										</div>
+			       	  				</div>
+			       	  				<div class="">
+			       	  					<h5 class="ac_label">Linked to</h5>
+			       	  					<div id="accordion">
+										  <h3><i class="fa fa-usd" aria-hidden="true"></i>  <span>Deal</span></h3>
+										  <div>
+										    <p>
+										    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+										    
+										    </p>
+										  </div>
+										  
+										  <h3><i class="fa fa-user-o" aria-hidden="true"></i>  <span>Contact</span></h3>
+										  <div>
+										    <p>
+										    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+										    
+										    </p>
+										    
+										  </div>
+										  <h3><i class="fa fa-sitemap" aria-hidden="true"></i>  <span>Organization</span></h3>
+										  <div>
+										    <p>
+										    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+										    
+										    </p>
+										  </div>
+										</div>
+			       	  				</div>
+			       	  			</div>
+			       	  		</div>
+			       	  	</div>
+			       	  </div>
+			      </div>
+			      <div class="modal-footer">
+			      	<input type="checkbox" name="vehicle1" value="Bike"> <span>Mark as done</span>
+			        <button type="button" class="btn btn-default " data-dismiss="modal">Cancel</button>
+			        <button type="button" class="btn btn-default mf_btn">Save</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<!-- Javascript Files
+	================================================== -->
+
+	<!-- initialize jQuery Library -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+	<!-- Bootstrap jQuery -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+    $( "#accordion" ).accordion();
+    } );
+    </script>
+
+	<!-- Custom js -->
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

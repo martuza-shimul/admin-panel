@@ -1,0 +1,60 @@
+.header_wrapper h3{
+	margin: 0;
+}
+
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-color: #DEE0E2;
+}
+
+.header_wrapper{
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #DEE0E2;
+}
+
+.button1{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.button2{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 1px 10px;
+    
+}
+
+.header_wrapper .button3 {
+    border-radius: 20px;
+    background: #6AD914;
+    color: #fff;
+}
+.section_a, .section_b{
+	padding: 10px;
+	border-bottom: 1px solid #DEE0E2;
+}
+.section_a p{
+	margin: 0;
+}
+.section_a span{
+	color: #6AD914;
+	
+}
+
+
+
+.colored p{
+	color: #6AD914;
+
+}
+.bordered p{
+	border: 1px solid #DEE0E2;
+	border-radius: 20px;
+	width: 70%;
+	padding-left: 10%;
+}
+.bordered p i{
+	margin-right: 10px;
+}
